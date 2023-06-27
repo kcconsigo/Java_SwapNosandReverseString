@@ -25,7 +25,9 @@ public class SwapNos {
 		  private static void swap(int i, int j) { // TODO Auto-generated method stub
 		  
 		  System.out.println("values swap before: " + i +" + " +j); //swap logic 
-		  i = i + j; j = i - j; i = i - j;
+		  i = i + j; 
+		  j = i - j; 
+		  i = i - j;
 		  
 		  System.out.println("values swap after: " + i +" + " +j);
 		 
