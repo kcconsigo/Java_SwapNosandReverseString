@@ -7,7 +7,17 @@ public class SwapNos {
 		int x = 30;
 		int y = 20;
 		
+		int a = 10;
+		int b = 5;
 		
+        a = a * y; // x now becomes 50
+        b = a / y; // y becomes 10
+        a = a / y; // x becomes 5
+        
+		System.out.println("After swapping:"
+                + " x = " + x + ", y = " + y);
+		
+				
 		x = x + y;
 		y = x - y;
 		x = x - y;
@@ -15,7 +25,7 @@ public class SwapNos {
 		
 		
 		System.out.println("values swap after: x = " + x +" y = " + y);
-		
+
 		
 		  System.out.println("Calling swap function with inputs 2 & 3"); swap(2,3);
 		  System.out.println("Calling swap function with inputs 2 & 3"); swap(-3,5);
